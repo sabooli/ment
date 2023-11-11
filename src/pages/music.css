@@ -1,0 +1,132 @@
+
+@font-face {
+  font-family: "Alice";
+  src: url(../fonts/Alice-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(../fonts/Gilroy-Bold.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url(../fonts/Gilroy-Black.ttf);
+  font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url(../fonts/Gilroy-ExtraBold.ttf);
+    font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+  font-display: swap;
+}
+
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.wholecontent {
+  margin-top: 44px;
+  margin-inline: 6%;
+}
+.musicHall {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  margin-bottom: 120px;
+}
+.musicforadults {
+  max-width: 604px;
+  margin: 62px auto 82px;
+  padding: 32px 25px 33px;
+  text-align: center;
+}
+.musicforadultsheading {
+font-family: "Alice", sans-serif;
+  font-size: 2.5em;
+  line-height: 50px;
+  color: #000b0c;
+  margin-bottom: 6%;
+  width: 100%;
+}
+.musicforadultswords {
+font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1.2em;
+  line-height: 36px;
+  color: #000b0c;
+  width: 100%;
+}
+.instrument {
+  width: 150px;
+  height: 151.5px;
+  display: inline-block;
+  margin: 0 auto;
+  fill:aquamarine;
+}
+.admusicImg, .adpaintingImg, .adwritingImg, .addanceImg {
+ display: inline-block; 
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  padding-inline: 10%;
+}
+.guitarcolor ::after {
+   content: "";
+  position: absolute;
+  top: 200%;
+  left: -282px;
+  width: 731px;
+  height: 731px;
+  opacity: 0.2;
+  background: rgba(237, 161, 47, 0.1);
+z-index: -999;
+border-radius: 50%;
+filter: blur(50px);
+}
+.studentcolor ::after {
+  content: "";
+  position: absolute;
+  top: 555%;
+  left: -282px;
+  width: 731px;
+  height: 731px;
+  opacity: 0.2;
+  background: rgba(215, 78, 127, 0.1);
+z-index: -999;
+border-radius: 50%;
+filter: blur(50px);
+}
+
+@media screen and (max-width: 900px) {
+.musicHall {
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+row-gap: 15px;
+display: inline-block;
+margin: 0 auto;
+margin-bottom: 100px;
+}
+}
+@media screen and (max-width: 680px) {
+  
+  
+}

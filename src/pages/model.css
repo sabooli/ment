@@ -1,0 +1,532 @@
+
+@font-face {
+  font-family: "Alice";
+  src: url(../fonts/Alice-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(../fonts/Gilroy-Bold.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url(../fonts/Gilroy-Black.ttf);
+  font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url(../fonts/Gilroy-ExtraBold.ttf);
+    font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+  font-display: swap;
+}
+
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+}
+.master {
+ margin-inline-start: 85px;
+  margin-inline-end: 85px;
+}
+.regbar {
+    max-width: 1240px;
+    min-height: 260px;
+    border: 1px solid #02979D;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.seminarimg {
+    height: 260px;
+    padding: 20px;
+}
+.regbar-image {
+  display: inline-block;
+  margin: auto auto;
+  max-width: 100%;
+  height: auto;
+}
+.seminarexp {
+    padding: 20px;
+}
+.seminarheading {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    color: #02979D;
+    text-transform: capitalize;
+}
+.seminardateprice {
+font-family: "Gilroy-Regular", sans-serif;
+font-size: 16px;
+line-height: 40px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.seminarwords {
+ font-family: "Gilroy-Regular", sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+.seminarguest {
+font-family: "Gilroy-Regular", sans-serif;
+font-size: 16px;
+line-height: 40px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+text-transform: capitalize;
+}
+.guestIntroN {
+text-transform: capitalize;
+}
+.guestimg {
+width: 35px;
+height: 35px;
+border-radius: 50px;
+margin-inline-end: 5px;
+}
+.seminartags span {
+font-family: "Gilroy-Regular", sans-serif;
+font-size: 16px;
+line-height: 60px;
+margin-inline-end: 5px;
+background-color: #ecf7f7;
+padding: 10px;
+text-transform: capitalize;
+}
+.seminarInfo {
+    max-width: 1240px;
+    min-height: 860px;
+    border: 0.2px solid #02979D;
+border-image: linear-gradient(to bottom, #02979D 0%, #00888D 100%);
+border-image-slice: 1;
+    margin-bottom: 35px;
+    padding: 20px;
+}
+.btn-card {
+font-family: "Gilroy-Regular", sans-serif;
+  padding: 12px;
+  padding-inline: 2rem;
+  max-width: 200px;
+  height: 48px;
+  background: #02979d;
+  border: 1px solid #02979d;
+  border-radius: 28px;
+  text-decoration: none;
+  margin-bottom: 110px;
+font-family: "Gilroy-Regular", sans-serif;
+  display: flex;
+justify-content: center;
+margin-left: auto;
+width: 100%;
+}
+.guestIntro {
+     font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    color: #02979D;
+    text-transform: uppercase;
+}
+.guestIntrowords {
+    font-family: "Gilroy-Regular", sans-serif;
+font-size: 16px;
+line-height: 40px;
+}
+.seminarheadingw {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.courseinfo {
+  font-family: "Gilroy-Regular", sans-serif;
+font-size: 16px;
+line-height: 40px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin-bottom: 20px;
+}
+.coachintro {
+  font-family: "Gilroy-Regular", sans-serif;
+font-size: 16px;
+line-height: 40px;
+}
+.coursewords {
+  font-family: "Gilroy-Regular", sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.btn-addcard {
+  font-family: "Gilroy-Regular", sans-serif;
+  padding: 12px;
+  padding-inline: 2rem;
+  max-width: 200px;
+  height: 48px;
+  background: #02979d;
+  border: 1px solid #02979d;
+  border-radius: 28px;
+  text-decoration: none;
+font-family: "Gilroy-Regular", sans-serif;
+  display: flex;
+justify-content: center;
+width: 100%;
+}
+.courseInfo {
+    max-width: 1240px;
+    min-height: 560px;
+    border: 0.2px solid #02979D;
+border-image: linear-gradient(to bottom, #02979D 0%, #00888D 100%);
+border-image-slice: 1;
+    margin-bottom: 35px;
+    padding: 20px; 
+}
+.coachcomment {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.coachcomment span {
+  font-family: "Gilroy-Regular", sans-serif;
+  color: #02979D;
+  font-size: 15px;
+}
+.commentbar {
+ max-width: 1240px;
+  min-height: 260px;
+  border: 1px solid #02979D;
+  padding: 20px;
+}
+.commenttext {
+   font-family: "Gilroy-Regular", sans-serif;
+   font-size: 15px;
+   line-height: 36px;
+}
+.time {
+   margin-left: auto;
+}
+.coachimg {
+  width: 50px;
+height: 50px;
+border-radius: 50px;
+margin-inline-end: 10px;
+}
+.cart {
+  margin-inline: 85px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.cartH {
+  font-family: "Alice", sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+.cartlisttitle, .reservedlist {
+  display: grid;
+  grid-template-columns:  1fr 1fr 4fr 1fr 1fr;
+}
+.cartlisttitle {
+ font-family: "Gilroy-Regular", sans-serif;
+   font-size: 18px;
+   color: #02979D;
+border-bottom: 0.2px solid rgba(2, 151, 157, 1);
+}
+.reservedlist {
+   font-family: "Gilroy-Regular", sans-serif;
+  font-size: 15px;
+   color: rgba(0, 11, 12, 1);
+border-bottom: 0.2px solid rgba(190, 190, 190, 1);
+padding-top: 15px;
+padding-bottom: 12px;
+}
+.deleteItem {
+  cursor: pointer;
+}
+.totalprice, .grandtotal {
+  border-radius: 30px;
+  border: 0.5px solid #02979D;
+  width: 424px;
+  height: 46px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.coupon-wrapper {
+  position: relative;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.coupon {
+  border-radius: 30px;
+  border: 0.5px solid #02979D;
+  width: 424px;
+  height: 46px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.addcoupon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0.5px solid #02979D;
+  color: #ecf7f7;
+  background-color: #02979D;
+  width: 117px;
+  height: 46px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 15px;
+}
+.checkout {
+  border-radius: 30px;
+  border: 0.5px solid #02979D;
+  width: 424px;
+  height: 46px;
+  color: #ecf7f7;
+  background-color: #02979D;
+  margin-bottom: 150px;
+   font-family: "Gilroy-Regular", sans-serif;
+  font-size: 15px;
+}
+.makefinal label {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 15px;
+}
+.logindata label-log, .remember-me {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 14px;
+  text-align: start;
+}
+
+.input {
+box-sizing: border-box;
+height: 42px;
+background: #FAFEFE;
+border: 1px solid #02979D;
+border-radius: 5px;
+width: 300px;
+}
+.checkbox {
+  border: 1px solid #02979D;
+  border-radius: 5px;
+}
+.forgot {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 13px;
+  color: #02979D; 
+}
+.signupnow {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 13px;
+  color: #02979D; 
+  text-decoration: none;
+}
+.signupnow:hover {
+  color: #02979D; 
+  text-decoration: none;
+}
+.forgot span {
+  color: black;
+}
+.hr {
+  border: none;
+  border-top: 1px dashed #02979D;
+}
+.loginButton {
+  max-width: 320px;
+  background-color: #02979d;
+  border: none;
+  background-size: cover;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #fafefe;
+  text-decoration: none;
+  width: 100%;
+}
+.loginpage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr;
+}
+.logincadre {
+  padding: 50px;
+}
+.welcome {
+   font-family: "Gilroy-Black", sans-serif;
+  font-size: 1.5em;
+  color: #02979d;
+}
+.logindata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 20px;
+    color: #FAFEFE;
+  font-family: "Gilroy-semiBold", sans-serif;
+  font-size: 15px;
+      text-decoration: none;
+    font-weight: bold;
+    width: 150px;
+    position: relative;
+    overflow: hidden;
+}
+.login-btn:hover {
+  color: #FAFEFE;
+}
+
+.login-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    z-index: -1;
+    background-color: #FAFEFE;
+    border: 1px solid #02979D;
+}
+
+.google {
+    background-color: #02979d;
+}
+
+.yahoo {
+    background-color: #02979D;
+}
+
+.login-icon {
+    margin-inline-end: 5px;
+    background-color: #FAFEFE;
+border-radius: 20px;
+font-size: 24px;
+padding: 4px;
+}
+
+.login-text {
+    margin-inline-start: 5px;
+}
+.login-icon-y {
+   margin-inline-end: 5px;
+    background-color: #FAFEFE;
+border-radius: 25px;
+    color: rgb(120, 27, 120);
+    font-size: 24px;
+    padding: 4px;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+  .courseinfo {
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-bottom: 20px;
+}
+.coursewords {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+} 
+}
+@media screen and (max-width: 900px) {
+.cartlisttitle {
+  display: none;
+}
+.reservedlist {
+  grid-template-columns:  1fr; 
+  display: flex;
+  flex-direction: column;
+}
+}
+
+@media screen and (max-width: 800px) {
+.regbar {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+}
+.loginpage {
+  grid-template-columns: 1fr;
+  display: flex;  
+  flex-direction: column;
+}
+.loginimg {
+  display: none;
+}
+}
+@media screen and (max-width: 500px) {
+.master {
+    margin-inline: 40px;
+}
+.seminardateprice, .seminarguest {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+}
+
+.totalprice, .coupon, .grandtotal, .checkout {
+  width: 304px;
+}
+
+}
+@media screen and (max-width: 450px) {
+ .courseinfo {
+display: grid;
+grid-template-columns: 1fr;
+margin-bottom: 20px;
+}
+}
+@media screen and (max-width: 360px) {
+
+.totalprice, .coupon, .grandtotal, .checkout {
+  width: 244px;
+}
+.addcoupon {
+  display: none;
+}
+}

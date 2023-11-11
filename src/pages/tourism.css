@@ -1,0 +1,718 @@
+@font-face {
+  font-family: "Alice";
+  src: url(../fonts/Alice-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(../fonts/Gilroy-Bold.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url(../fonts/Gilroy-Black.ttf);
+  font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url(../fonts/Gilroy-ExtraBold.ttf);
+    font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+  font-display: swap;
+}
+
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+}
+.tour {
+  text-align: center;
+  color: #fafefe;
+  margin-top: 38px;
+}
+.tour h1 {
+  font-family: "Alice", sans-serif;
+  font-size: 3em;
+}
+.tour h2 {
+  font-family: "Alice", sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 60px;
+}
+.tourlink {
+  border: 1px solid #02979d;
+  background-color: #02979d;
+  color: #fafefe;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 12px;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+.tourlink:hover {
+  color: #fafefe;
+}
+.tourism {
+  margin-inline: 85px;
+  padding-top: 50px;
+}
+.tour-pack {
+text-align: center;
+margin-bottom: 140px;
+}
+.tourism h2 {
+  font-family: "Alice", sans-serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.drt {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+.drhotel {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+.packages {
+  margin-inline: -85px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 45px;
+  gap: 0.1%;
+}
+.Rhino {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.Rhino figcaption {
+  background-color: rgba(143, 77, 174, 1);
+  background-size: cover;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 1.125em;
+  color: rgba(250, 254, 254, 1);
+  padding: 10px;
+}
+.tourtitle {
+  font-family: "Gilroy-semiBold", sans-serif;
+  font-size: 1.5em;
+  padding: 40px;
+  padding-inline: 10px;
+}
+.doctorName {
+text-transform: capitalize;
+  font-family: "Gilroy-Bold", sans-serif;
+margin-top: 15px;
+
+}
+.specialty {
+    font-family: "Gilroy-Regular", sans-serif;
+font-size: 1.1em;
+margin: 40px;
+}
+.tourdes {
+  font-family: "Gilroy-Regular", sans-serif;
+}
+.tourprice {
+  font-family: "Gilroy-Regular", sans-serif;
+font-size: 1.2em;
+}
+.applytour {
+border: 1px solid  rgba(143, 77, 174, 1);;
+text-decoration: none;
+border-radius: 25px;
+background-color:  rgba(143, 77, 174, 1);;
+color: #FAFEFE;
+padding: 10px;
+padding-inline: 40px;
+}
+.tourbeauty {
+  background-color: rgba(250, 254, 254, 1);
+  color: rgba(143, 77, 174, 1);
+  text-decoration: none;
+  border-radius: 20px;
+  padding-inline: 12px;
+  padding-bottom: 3px;
+  font-family: "Gilroy-Regular", sans-serif;
+  float: right;
+}
+.tourbeauty:hover {
+  color: rgba(143, 77, 174, 1);
+}
+.treat-img {
+   width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+.packagelink {
+  background-color: #02979d;
+  color: #fafefe;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 18px;
+  font-family: "Gilroy-Regular", sans-serif;
+  display: inline-block;
+  margin: 0 auto;
+}
+.packagelink:hover {
+  color: #fafefe;
+}
+.tour-all-pack {
+  text-align: center;
+  margin-inline: -85px;
+}
+.all-inclusive-pack {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 100px;
+}
+.inclusive-pack {
+  background-image: linear-gradient(to right, rgba(2, 151, 157, 1), rgba(0, 136, 141, 1));
+  background-size: cover;
+  height: 310px;
+  padding: 35px;
+  text-align: center;
+}
+.packH {
+ font-family: "Alice", sans-serif;
+  font-size: 1.5em;
+  color: #fafefe;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.packT {
+font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1em;
+  color: #fafefe;
+  max-width: 270px;
+  text-align: center;
+  margin: 5px auto;
+}
+.step-by-step {
+  text-align: center;
+}
+.ptreatments {
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 100px;
+}
+.popularT {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 40px;
+  gap: 2%;
+}
+.popularT figure {
+  position: relative;
+ }
+.popularT figure:hover figcaption {
+  display: none;
+}
+.popularT figure:hover::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(143, 77, 174, 1);
+  opacity: 0.5;
+}
+.centerFig {
+  position: relative;
+  overflow: hidden; /* prevent background from overflowing */
+}
+.centerFig:hover::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(143, 77, 174, 1);
+  opacity: 0.5;
+}
+.caption-text {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  padding: 3% 0; 
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(2, 151, 157, 1); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1; 
+  transition: opacity 0.2s ease-in-out;
+  color: #fafefe;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+.caption-link {
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  color: #fafefe;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #fafefe;
+  text-decoration: none;
+}
+.image-link {
+  position: absolute;
+  transform: translate(-50%);
+  color: #fafefe;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #fafefe;
+  text-decoration: none;
+}
+.explanation strong {
+  font-size: 14px;
+  padding-bottom: 3px;
+  text-decoration: underline;
+}
+.explanation {
+  background-color:rgba(190, 155, 206, 1);
+  border: 1px solid rgb(190, 155, 206, 1);
+  color: rgb(14, 13, 13);
+  padding: 8px;
+  width: 100%;
+  font-size: 13px;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+.popularT figure:hover .caption-text {
+  display: block;
+  background-color: transparent;
+  transform: translateY(-300%);
+}
+.popularT figure:hover .caption-link {
+  display: block;
+}
+.caption-link:hover {
+    color: #fafefe;
+}
+.medical-service, .travelguide {
+  margin-inline: -85px;
+  background: #EAF6F6;
+  text-align: center;
+  padding-inline: 85px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  margin-bottom: 120px;
+}
+.careH {
+  font-family: "Alice", sans-serif;
+  font-size: 1.75em;
+  margin-bottom: 20px;
+}
+.carecaption {
+  background-color: #02979d;
+  background-size: cover;
+  color: #fafefe;
+  font-family: "Gilroy-Bold", sans-serif;
+  height: 50px;
+  padding-top: 4%;
+  text-transform: capitalize;
+}
+.captiontext, .captionlink {
+display: none;
+}
+.captiontext {
+   color: #fafefe;
+   position: absolute;
+   width: 100%;
+   left: 0;
+  bottom: calc(50% - 0.5 * 0.1 * min(100vw, 100vh));
+  transform: translate(100%);
+  font-family: "Gilroy-Bold", sans-serif;
+}
+.captionlink {
+  position: absolute;
+ bottom: calc(10% + 0.5 * 0.1 * min(100vw, 100vh));
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 30px;
+  color: #fafefe;
+  border: 1px solid #fafefe;
+  text-decoration: none;
+}
+.captionlink:hover {
+    color: #fafefe;
+}
+.centers {
+  margin-bottom: 100px;
+}
+.downloadcatalouge {
+ border: 1px solid #02979d;
+  background-color: #02979d;
+  color: #fafefe;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 12px;
+  font-family: "Gilroy-Regular", sans-serif; 
+  width: 100%;
+}
+.travelguide div {
+font-family: "Gilroy-Regular", sans-serif; 
+font-size: 16px;
+margin-bottom: 40px;
+}
+
+figure:hover .captiontext {
+  display: block;
+  background-color: transparent;
+  transform: translateY(-300%);
+}
+
+figure:hover .captionlink {
+  display: block;
+}
+.traveltoIranexp {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  margin-bottom: 110px;
+}
+.memorableexp {
+  font-family: "Gilroy-Regular", sans-serif; 
+font-size: 16px;
+line-height: 36px; 
+}
+.freeconsult {
+  margin-inline: -85px;
+  background: rgba(143, 77, 174, 1);
+  text-align: center;
+  padding-inline: 85px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  margin-bottom: 120px;
+  color: white;
+}
+.getfreeconsult {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 12px;
+  font-family: "Gilroy-Regular", sans-serif; 
+  margin-top: 50px;
+}
+.downloadcatalouge:hover, .getfreeconsult:hover {
+  color: #fafefe;
+}
+
+.tfreq {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 5%;
+}
+.Tfaq {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 120px;
+}
+
+.diagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  position: relative;
+}
+.circled {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  display: inline-block;
+}
+.startc, .startc::before {
+    border:1px dashed rgba(143, 77, 174, 1);
+    content: "Health Issues";
+    font-family: "Gilroy-Medium";
+         font-size: 14px;
+    color:  rgba(143, 77, 174, 1);
+}
+.endc, .endc::before {
+     border:1px solid  rgba(143, 77, 174, 1);
+     content: "Health & Happy";
+     font-family: "Gilroy-Medium";
+     font-size: 14px;
+    color: rgba(143, 77, 174, 1);
+}
+.circled::before {
+  box-sizing: border-box;
+  padding: 10px; 
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+.startc {
+  left: 85px;
+}
+.endc {
+  right: 85px;
+}
+.line {
+  height: 1px;
+  width: calc(100% - 370px);
+  border-top: 2px solid #02979d;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.verticalup {
+  position: absolute;
+  bottom: 100px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: flex-end;
+  width: calc(100% - 300px);
+  margin-inline-end: 8%;
+}
+.vertical-lines {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: calc(100% - 300px);
+  margin-inline-start: 8%;
+}
+.vert-line {
+  width: 1px;
+  height: 40px;
+  background-color: #02979d;
+}
+.text-box {
+  display: flex;
+  justify-content: space-evenly;
+  width: calc(100% - 300px);
+  position: absolute;
+  top: 150px;
+  left: 54%;
+  transform: translateX(-50%);
+}
+.textup-box {
+ display: flex;
+  justify-content: space-evenly;
+  width: calc(100% - 300px);
+  position: absolute;
+  bottom: 150px;
+  left: 45%;
+  transform: translateX(-50%); 
+}
+.text, .textup {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  width: 190px;
+}
+
+@media screen and (max-width: 1010px) {
+.caption-link {
+  padding: 10px;
+  font-size: 14px;
+  transform: translate(-50%, -100%);
+
+}
+
+.popularT figure:hover .caption-text {
+  transform: translateY(-240%);
+}
+}
+@media screen and (max-width: 950px) {
+.popularT {
+display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+}
+@media screen and (max-width: 900px) {
+  
+.traveltoIranexp {
+grid-template-columns: 1fr;
+display: flex;
+flex-direction: column;
+}
+.tfreq {
+  grid-template-columns: 1fr;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.step-by-step, .circled {
+  margin-inline: -45px;
+}
+.line {
+  height: 1px;
+  width: calc(100% - 280px);
+  border-top: 2px solid #02979d;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+}
+@media screen and (max-width: 730px) {
+  .popularT {
+  grid-template-columns: repeat(2, 1fr);
+} 
+.caption-link {
+  padding: 6px;
+  font-size: 12px;
+  transform: translate(-50%, -100%);
+}
+
+.popularT figure:hover .caption-text {
+  transform: translateY(-180%);
+}
+}
+
+@media screen and (max-width: 700px) {
+ 
+  .tour h1 {
+    font-size: 2.2em;
+  }
+  .tour h2 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+  }
+  .tourlink {
+    font-size: 0.75em;
+  }
+  .packages {
+    grid-template-columns: repeat(2, 1fr);
+  }
+ .text, .textup {
+  font-size: 12px;
+max-height: 100px; 
+}
+}
+@media screen and (max-width: 620px) {
+.medical-service, .travelguide, .freeconsult {
+  padding-inline: 45px;
+}
+.centers, .ptreatments, .traveltoIranexp, .tourfaq {
+  margin-inline: -40px;
+}
+.all-inclusive-pack {
+  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+}
+.inclusive-pack {
+  background-image: linear-gradient(to bottom, rgba(2, 151, 157, 1), rgba(0, 136, 141, 1));
+}
+.vertical-lines {
+  width: calc(50%);
+  margin-inline-start: 3%;
+}
+.verticalup {
+  width: calc(50%);
+  margin-inline-end: 3%;
+}
+}
+@media screen and (max-width: 540px) {
+
+.popularT figure:hover .caption-text {
+  transform: translateY(-200%);
+}
+.vertical-lines {
+  padding-inline-start: 3%;
+}
+.step-by-step, .circled {
+  margin-inline: -65px;
+}
+.diagram {
+  margin-top: 50px;
+  margin-inline: -15px;
+}
+.line {
+  width: calc(100% - 240px);
+}
+ .text, .textup {
+  font-size: 10px;
+max-height: 100px; 
+}
+
+.text {
+  width: calc(100%+200px);
+}
+}
+@media screen and (max-width: 450px) {
+.vertical-lines {
+  padding-inline-start: 3%;
+}
+.vertical-lines {
+  width: calc(40%);
+}
+.verticalup {
+  width: calc(40%);
+}
+.step-by-step h2 {
+  font-size: 1.5em;
+  margin-bottom: 70px;
+}
+ .text, .textup {
+  writing-mode: vertical-rl;
+  }
+  .text {
+    margin-top: 4%;
+  }
+  .textup {
+    margin: 6%;
+    margin-inline: 0;
+  }
+}
+
+
+@media screen and (max-width: 390px) {
+.popularT {
+  grid-template-columns: 1fr;
+display: flex;
+flex-direction: column;
+}
+.vertical-lines {
+  width: calc(37%);
+}
+.verticalup {
+  width: calc(37%);
+}
+.popularT figure:hover .caption-text {
+  transform: translateY(-270%);
+}
+.caption-link {
+  padding: 10px;
+  font-size: 16px;
+}
+}

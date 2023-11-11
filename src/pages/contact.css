@@ -1,0 +1,214 @@
+
+@font-face {
+  font-family: "Alice";
+  src: url(../fonts/Alice-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(../fonts/Gilroy-Bold.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url(../fonts/Gilroy-Black.ttf);
+  font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url(../fonts/Gilroy-ExtraBold.ttf);
+    font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+  font-display: swap;
+}
+
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.contactus {
+    font-family: "Alice", sans-serif;
+    font-size: 3em;
+    color: #fafefe;
+    margin-top: 5%;
+}
+.waitu {
+    font-family: "Golroy-Regular", sans-serif;
+    font-size: 1.1em;
+    color: #fafefe;
+    line-height: 36px;
+    max-width: 1076px;
+    backdrop-filter: blur(10px) brightness(90%);
+    padding: 32px 45px 37px;
+    text-align: center;
+    margin: 12% auto;
+    color: #fafefe;
+    border: 1px solid #fafefe;
+}
+.contactMethods {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.footnote {
+    font-family: "Gilroy-SemiBold", sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 32px;
+}
+.addressnote {
+font-family: "Gilroy-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+}
+.map-container {
+    height: 100vh;
+    width: 100%;
+}
+.subscribe {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    background-color: #EBF7F7;
+    padding-inline: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-inline: 85px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+.newsletter {
+    font-family: "Alice", sans-serif;
+    font-size: 1.5em;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.ourNewsletter {
+    font-family: "Gilroy-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+}
+.emailInput {
+display: flex;
+justify-content: center;
+height: 44px;
+align-items: center;
+width: 100%;
+margin-top: 50px;
+}
+.emailplace {
+width: 480px;
+height: 44px;
+border-radius: 8px;
+border: 0.5px solid #02979d;
+}
+.emailplace::placeholder {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  padding-inline-start: 1rem;
+}
+.subbutton {
+width: 140px;
+height: 44px;
+background-color: #02979d;
+border: 0.5px solid #02979d;
+border-radius: 8px;
+margin-inline-start: -140px;
+color: #EBF7F7;
+font-family: "Gilroy-Bold", sans-serif;
+font-size: 1em;
+}
+.profilepage {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 1fr;
+}
+.welcomeBack {
+font-family: "Gilroy-Bold", sans-serif;
+font-size: 0.9em;
+}
+.profileName {
+font-family: "Gilroy-Bold", sans-serif;
+font-size: 1.05em;
+}
+@media screen and (max-width: 900px) {
+    .subscribe {
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .contactMethods {
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+    .emailplace {
+     width: 380px;
+     display: flex;
+justify-content: center;
+    }
+    .subbutton {
+width: 100px;
+margin-inline-start: -100px;
+    }
+    .waitu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+     .emailplace {
+     width: 298px;
+     display: flex;
+justify-content: center;
+    }
+    .subbutton {
+width: 88px;
+margin-inline-start: -88px;
+    }
+     .subscribe {
+    margin-inline: 60px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .subscribe {
+    margin-inline: 40px;
+  }
+     .emailplace {
+     width: 90%;
+    }
+    .subbutton {
+      display: none;
+    }    
+.emailplace::placeholder {
+  font-size: 14px;
+  padding-inline-start: 0.3rem;
+}
+.newsletter {
+  font-size: 1.15em;
+  padding: 5px;
+}
+}

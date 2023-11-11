@@ -1,0 +1,211 @@
+
+@font-face {
+  font-family: "Alice";
+  src: url(../fonts/Alice-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(../fonts/Gilroy-Bold.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url(../fonts/Gilroy-Black.ttf);
+  font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url(../fonts/Gilroy-ExtraBold.ttf);
+    font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+  font-display: swap;
+}
+
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+}
+.main-contain {
+  width: 100%;
+  overflow: hidden;
+}
+.about {
+  margin-top: 45px;
+  margin-inline-start: 85px;
+  margin-inline-end: 85px;
+  text-align: justify;
+}
+.easy {
+  font-family: "Alice", sans-serif;
+  text-align: center;
+  font-size: 2em;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.how {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 1em;
+  line-height: 36px;
+  margin-top: 34px;
+  text-align-last: center;
+  margin-bottom: 4%;
+}
+.group {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.hand {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  padding-inline: 10%;
+  margin-top: 8px;
+}
+.story {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin-inline-start: 85px;
+  margin-inline-end: 85px;
+  margin-top: 12%;
+}
+
+.st {
+  font-family: "Alice", sans-serif;
+  font-size: 2em;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.handstory {
+  font-family: "Gilroy-Regular", sans-serif;
+  margin-top: 30px;
+  text-align: justify;
+  line-height: 36px;
+  font-size: 1em;
+}
+.team {
+  margin-top: 12%;
+  text-align: center;
+  margin-inline-start: 85px;
+  margin-inline-end: 85px;
+  max-width: 1800px;
+}
+.ourteam {
+  font-family: "Gilroy-Regular", sans-serif;
+  margin-top: 30px;
+  text-align: justify;
+  text-align-last: center;
+  line-height: 36px;
+  font-size: 1em;
+}
+.Complementary {
+  font-family: "Gilroy-Regular", sans-serif;
+  margin-top: 3%;
+  text-align: justify;
+  text-align-last: center;
+  line-height: 36px;
+  font-size: 1em;
+  margin-bottom: 27px;
+}
+.position {
+  font-family: "Gilroy-Regular", sans-serif;
+  text-align: start;
+  line-height: 36px;
+  font-size: 1em;
+}
+.join {
+margin-inline-end: 43px;
+}
+.jot {
+font-family: "Alice",sans-serif;
+font-size: 2em;
+line-height: 40px;
+color: #000b0c;
+margin-bottom: 4%;
+}
+.openPosition {
+  margin-top: 5%;
+  padding: 11.48px 29.5px 11.48px;
+  max-width: 215px;
+  background-color: #02979d;
+  border-radius: 35px;
+}
+.op {
+  font-family: "Gilroy-Regular", sans-serif;
+  color: #ffffff;
+  font-size: 1em;
+  text-align: center;
+}
+.to {
+  text-decoration: none;
+}
+
+.callIcon {
+  margin-inline: 21px;
+font-size: 1.6em;
+  color: #02979d;
+}
+.final {
+  margin-top: 12%;
+  margin-bottom: 15%;
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+}
+.comp {
+    padding-inline-start: 20px;
+    
+}
+.dup {
+    margin-top: 45px; 
+}
+.rof {
+    margin-top: 19px;
+    margin-inline-start: 4px;
+}
+.teamphoto {
+ display: inline-block;
+ margin-top: 250px;
+ margin-inline: auto;
+ max-width: 100%;
+ height: auto;
+}
+.swiper-button-next, .swiper-button-prev {
+  width: 12px;
+  height: 24px;
+  color: #02979d;
+}
+
+ @media screen and (max-width: 800px) {
+  .story, .final {
+grid-template-columns: 1fr;
+display: flex;
+flex-direction: column;
+  }
+ }
+ @media screen and (max-width: 450px) {
+  .about, .story, .team {
+    margin-inline-start: 45px;
+    margin-inline-end: 45px;
+  }
+ }
+

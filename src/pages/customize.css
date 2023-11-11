@@ -1,0 +1,514 @@
+@font-face {
+  font-family: "Alice";
+  src: url(../fonts/Alice-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(../fonts/Gilroy-Bold.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url(../fonts/Gilroy-Black.ttf);
+  font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url(../fonts/Gilroy-ExtraBold.ttf);
+    font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+  font-display: swap;
+}
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+}
+.contain,
+.kids,
+.seminars {
+  max-width: 1800px;
+  width: 100%;
+}
+.adultspsy,
+.childpsy,
+.sliders {
+  margin-inline: 85px;
+}
+.happy, .musicforchildren {
+  max-width: 664px;
+  backdrop-filter: blur(10px) brightness(90%);
+  padding: 32px 60px 47px;
+    text-align: center;
+
+}
+.happy {
+  margin: 75px auto;
+}
+.musicforchildren {
+  margin: 120px 0;
+   color: #fafefe;
+   border: 1px solid #fafefe;
+}
+
+.beHappy, .musicforchildrenheading {
+  font-family: "Alice", sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.getHelp, .musicforchildrenwords {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 1em;
+  line-height: 36px;
+  width: 100%;
+  color: #fafefe;
+}
+.f {
+  color: #fafefe;
+}
+.s {
+  color: #eda12f;
+}
+.topic {
+  font-family: "Alice", sans-serif;
+  font-size: 2em;
+  line-height: 36px;
+  color: #000b0c;
+  margin-top: 100px;
+  margin-bottom: 65px;
+}
+.subjects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+.consultants {
+  position: relative;
+  padding-top: 3%;
+  padding-inline: 7.5%;
+  padding-bottom: 3%;
+  margin-inline: -85px !important;
+  margin-bottom: 150px;
+}
+.cons {
+  font-family: "Alice", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000b0c;
+  margin-bottom: 3%;
+  text-transform: uppercase;
+}
+.contsimg {
+width: 100%;
+height: 240px;
+object-fit: cover;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+.mental-icon {
+  width: 50px;
+  height: 50px;
+}
+.dr {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+.constext {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 1.125em;
+  line-height: 32px;
+  margin-bottom: 3%;
+}
+.surname {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 1.25em;
+  line-height: 25px;
+  color: #02979d;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.card {
+  border: 0.13px solid #02979d;
+  gap: 20px;
+  width: 100%;
+  border-radius: 15%;
+}
+.fff {
+display: flex;
+justify-content: flex-end;
+}
+.swiper-navigation_prev,
+.swiper-navigation_next {
+  position: relative;
+  cursor: pointer;
+  z-index: 10;
+  color: #02979d;
+  border-radius: 50%;
+  font-size: 44px;
+}
+figure {
+  text-align: center;
+}
+.ovil {
+border-radius: 80px;
+padding: 40px;
+color: white;
+background: linear-gradient(100.35deg, #02979D 7.72%, #00888D 92.28%);
+width: 133px;
+height: 172.2px;
+}
+.round {
+  border-radius: 80px;
+  width: 130px;
+height: 130px;
+padding: 37px;
+color: white;
+background: linear-gradient(100.35deg, #02979D 7.72%, #00888D 92.28%);
+}
+.ovil:hover, .round:hover {
+background: #EDA12F;
+}
+
+.label {
+  width: 133px;
+  height: 172.2px;
+}
+.captionl {
+  display: block;
+  margin: 0 auto;
+  font-family: "Alice", sans-serif;
+  font-size: 1.175em;
+  line-height: 32px;
+  color: #000b0c;
+  margin-top: 10px;
+  margin-bottom: 48px;
+}
+.meet,
+.article,
+.article2child,
+.meetc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.article2 {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+}
+.meetad {
+  width: 100%;
+}
+.articlead {
+  padding-inline-end: 63px;
+}
+.meetch {
+  padding-inline-end: 18px;
+  width: 100%;
+}
+.meetchph {
+  display: inline-block; 
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-inline-end: -85px;
+}
+.meetph {
+  margin-inline-end: -85px;
+}
+.article2ad {
+  padding-top: 100px;
+  width: 100%;
+}
+.article2ch {
+  padding-inline-start: 70px;
+  padding-top: 78px;
+  width: 100%;
+}
+.meetph, .articleph, .article2ph {
+  display: inline-block; 
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.meetph,
+.article2ph {
+  margin-inline-start: -85px;
+}
+.meettitle,
+.articletitle,
+.article2title {
+  font-family: "Alice", sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  color: #000b0c;
+  margin-bottom: 30px;
+}
+.meetcontent,
+.articlecontent,
+.article2content {
+  font-family: "Girloy-Regular", sans-serif;
+  font-size: 1.1em;
+  line-height: 36px;
+  color: #000b0c;
+  width: 100%;
+  height: auto;
+}
+.part3 {
+  margin-top: 158px;
+  margin-bottom: 150px;
+}
+.part5 {
+  margin-top: 59.5px;
+  margin-bottom: 157px;
+}
+.part6 {
+  margin-bottom: 150px;
+}
+.cardp {
+  border: 0.15px Solid rgba(2, 151, 157, 0.7);
+  max-width: 364.82px;
+  min-height: 360px;
+  padding-inline: 6%;
+  box-shadow: 5px 5px 10px rgba(2, 151, 157, 0.1);
+  background-color: white;
+}
+.patient {
+  width: 82.08px;
+  height: 82.08px;
+  margin-top: 8.87%;
+}
+.comment {
+  margin-top: 2.5%;
+  font-family: "Girloy-Regular", sans-serif;
+  font-size:15px;
+  line-height: 24px;
+  color: #000b0c;
+}
+.patientName {
+  font-family: "Girloy-Regular", sans-serif;
+  font-size: 1.1em;
+  line-height: 32px;
+  color: #02979d;
+  margin-top: 3.5%;
+}
+.date {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 54%;
+  font-family: "Girloy-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 32px;
+  color: #d74e7f;
+}
+.patientSay {
+  font-family: "Alice", sans-serif;
+  font-size: 2em;
+  line-height: 40px;
+  color: #000b0c;
+  margin-bottom: 38px;
+}
+.swps {
+  white-space: "nowrap";
+}
+.swps div {
+  display: 'inline-block'
+}
+
+.swiper-navigation___prev,
+.swiper-navigation___next {
+  position: relative;
+  cursor: pointer;
+  z-index: 10;
+  color: #02979d;
+  font-size: 44px;
+}
+.downdesign {
+  width: 100%;
+}
+.psychservices {
+  font-family: "Alice", sans-serif;
+  font-size: 2em;
+  line-height: 40px;
+  color: #000b0c;
+  margin-bottom: 80px;
+  margin-top: 54.34px;
+}
+.partb {
+  margin-top: 100px;
+  margin-bottom: 155px;
+}
+.partd {
+  margin-bottom: 150px;
+}
+.parte {
+  margin-bottom: 174px;
+}
+.partf {
+  margin-bottom: 150px;
+}
+.see {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 1.125em;
+  line-height: 21px;
+  color: #fafefe;
+}
+.seeAll {
+  background-color: #02979d;
+  border-radius: 30px;
+  max-width: 160px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  margin-inline: 43%;
+  margin-bottom: -25px;
+  text-decoration: none;
+}
+.chenjoy {
+  max-width: 1200px;
+  margin: 62px auto 82px;
+  padding: 32px 25px 33px;
+  text-align: center;
+}
+.lets {
+  font-family: "Alice", sans-serif;
+  font-size: 2.5em;
+  line-height: 50px;
+  color: #000b0c;
+  margin-bottom: 6%;
+  width: 100%;
+}
+.enjoy {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1em;
+  line-height: 36px;
+  color: #000b0c;
+  width: 100%;
+}
+.spzseminars {
+  margin-top: 140px;
+}
+
+@media screen and (max-width: 1360px) {
+  .subjects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+  }
+  .captionl {
+    margin-bottom: 20%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .subjects {
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .captionl {
+    margin-bottom: 20%;
+  }
+  .meet,
+  .article,
+  .article2,
+  .article2child, .meetc {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+  .meetchph {
+    margin-inline-end: 0;
+    margin-top: 5%;
+  }
+  .articleph {
+    margin-top: 5%;
+  }
+  .meetph, .article2ph {
+    margin-inline-start: 0;
+    margin-bottom: 3%;
+  }
+.article2ch {
+  padding-inline-start: 0;
+}
+.articlead, .meetch {
+  padding-inline-end: 0;
+}
+}
+@media screen and (max-width: 800px) {
+  .getHelp, .musicforchildrenwords, .enjoy {
+    display: none;
+  }
+
+  .beHappy, .musicforchildrenheading {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .part5, .part4, .part2, .part1, .part6, .partd, .parte, .partb, .parta, .partf {
+    margin-inline: -40px;
+    margin-top: 100px;
+  }
+.article2ad {
+  padding-inline-start: 0;
+  padding-top: 20px;
+}
+.cons {
+  font-size: 1.7em;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+.patientSay {
+  font-size: 1.5em;
+}
+  .subjects {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+  .label {
+    width: 100%;
+    margin-inline-start: -5%;
+  }
+  .captionl {
+    margin-bottom: 20%;
+  }
+  .seeAll {
+    background-color: #02979d;
+    border-radius: 30px;
+    max-width: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin-inline: 40%;
+    text-decoration: none;
+  }
+}

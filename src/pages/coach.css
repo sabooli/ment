@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Alice";
+  src: url(../fonts/Alice-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(../fonts/Gilroy-Bold.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url(../fonts/Gilroy-Black.ttf);
+  font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url(../fonts/Gilroy-ExtraBold.ttf);
+    font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+  font-display: swap;
+}
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+}
+.coaches {
+  position: relative;
+  padding-top: 1%;
+  padding-inline: 7.5%;
+  padding-bottom: 1%;
+}
+.card {
+  border: 0.13px solid #02979d;
+  width: 100%;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.coachsl {
+max-width: 219.82px;
+  min-height: 230px;
+}
+.coachname {
+ font-family: "Gilroy-Regular", sans-serif;
+  font-size: 14px;
+  color: #02979d;
+  text-align: center;
+}
+.major {
+font-family: "Gilroy-Regular", sans-serif;
+  font-size: 14px;
+  color: #D74E7F;
+  text-align: center;
+}
+.buttonpose {
+  display: flex;
+justify-content: flex-end;
+margin-inline-end: 50px;
+}
+.choosecoach {
+  margin-inline: 85px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.coa {
+  font-family: "Alice", sans-serif;
+  font-size: 2em;
+}
+.choosecoach-child {
+  margin-inline: 85px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+
+}
+.backcolor {
+  background-image: linear-gradient(to bottom right,#FDF4F7, #FEF8FA, #ffffff);
+}
+.ci {
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 630px) {
+.coaches {
+  padding-inline: 4%;
+}
+.choosecoach, .choosecoach-child {
+  margin-inline: 45px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+}

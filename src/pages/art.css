@@ -1,0 +1,613 @@
+
+@font-face {
+  font-family: "Alice";
+  src: url(../fonts/Alice-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(../fonts/Gilroy-Bold.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url(../fonts/Gilroy-Black.ttf);
+  font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url(../fonts/Gilroy-ExtraBold.ttf);
+    font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+  font-display: swap;
+}
+
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+  width: 100% !important;
+  max-width: 1800px !important;
+}
+.AH {
+  max-width: 1168px;
+  margin: 62px auto 82px;
+  padding: 32px 25px 33px;
+  text-align: center;
+}
+.AHheading {
+ font-family: "Alice", sans-serif;
+  font-size: 2.5em;
+  line-height: 50px;
+  color: #FAFEFE;
+  margin-bottom: 6%;
+  width: 100%;
+}
+.AHwords {
+font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1.2em;
+  line-height: 36px;
+  color: #FAFEFE;
+  width: 100%;
+}
+.thumbnailring {
+  position: relative;
+  display: inline-block;
+  margin-inline-start: 45%;
+  }
+.ring {
+  position: absolute;
+  max-width: 98px;
+  height: 98px;
+  border-radius: 50%; 
+  margin-top: 16%;
+  border: 1px solid rgba(215, 78, 127, 0.25);
+  background: rgba(215, 78, 127, 0.25);
+  display: block;
+  margin-top: 65px;
+}
+.ring::before {
+  content: "";
+  position: absolute;
+  top: 18%;
+  left: 18%;
+  width: 64%;
+  height: 64%;
+  background: #D74E7F;
+  border-radius: 50%;
+}
+.parental {
+    margin-inline: 6%;
+    margin-top: 50px;
+}
+.precendent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    gap: 10%;
+    margin-inline: 3%;
+}
+.artstu, .artcou, .artinst {
+    max-width: 253px;
+    min-height: 258px;
+    display: block;
+}
+.thumbnail {
+position: relative;
+    display: inline-block;
+}
+.n2, .n3, .n1 {
+ position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    font-family: "Gilroy-ExtraBold",sans-serif;
+font-size: 2.1em;
+color: #FFFFFF;
+}
+.t2, .t3, .t1 {
+ position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    font-family: "Gilroy-Regular",sans-serif;
+font-size: 1.15em;
+color: #FFFFFF;
+}
+.MADheading {
+font-family: "Alice", sans-serif;
+  font-size: 2em;
+  line-height: 50px;
+  color: #000b0c;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.MADimages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1%;
+    margin-bottom: 100px;
+}
+.madults, .mchildren, .therapyimage, .musicrelaximage, .dancingimage, .writingimage {
+  display: inline-block; 
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.madwords, .mchwords {
+  display: block;
+  width: 100%;
+  font-family: "Alice", sans-serif;
+  font-size: 1.5em;
+  line-height: 36px;
+  color: #000b0c;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  background-size: contain;
+}
+.madwords {
+ background-color: #EAF6F6;
+} 
+.mchwords {
+ background-color: #FAE8EF;
+}
+.therapypass {
+  margin-top: 20%;
+}
+.arttherapy {
+   display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin-bottom: 120px;
+}
+.therapyimage {
+    margin-inline-start: -85px;
+}
+.therapyheading {
+font-family: "Alice", sans-serif;
+  font-size: 2em;
+  line-height: 36px;
+  color: #000b0c;
+  margin-bottom: 16px;
+}
+.therapywords {
+font-family: "Gilroy-Regular",sans-serif;
+font-size: 1em;
+line-height: 40px;
+  color: #000b0c;
+}
+.linkto {
+max-width: 330px;
+}
+.link {
+margin-top: 42px;
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 10%;
+gap: 5px;
+}
+.musicrelaximage, .writingimage {
+margin-inline-start: 80px;
+}
+.colorful {
+  max-width: 604px;
+  margin: 62px auto 82px;
+  padding: 32px 25px 33px;
+  text-align: center;
+}
+.colorfulheading {
+font-family: "Alice", sans-serif;
+  font-size: 2.5em;
+  line-height: 50px;
+  color: #FAFEFE;
+  margin-bottom: 6%;
+  width: 100%;
+}
+.colorfulwords {
+font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1.2em;
+  line-height: 36px;
+  color: #FAFEFE;
+  width: 100%;
+}
+.mastdiv {
+  margin-top: 150px;
+}
+.adultartdep {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 150px;
+}
+.artsdep {
+  padding-inline-start: 85px;
+  background-size: cover;
+  background-color: #EAF6F6;
+  padding-inline-end: 10%;
+}
+.artsdep ul {
+  list-style: none;
+  padding-top: 7%;
+  margin: 0;
+  padding: 0;
+}
+ .artsdep ul li {
+  padding-top: 4%;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 1.05em;
+}
+.artsdepheading {
+  font-family: "Alice", sans-serif;
+  font-size: 2em;
+  line-height: 36px;
+  color: #000b0c;
+  margin-top: 4%;
+}
+.artsdep hr {
+  color: #02979d;
+}
+.floatR {
+float: right;
+}
+.here {
+color: #D74E7F;
+}
+.adpainting, .admusic, .adact, .adwrite, .addance, .chmusic, .chdance, .chwrite {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-inline: 6%;
+}
+.admusic, .chmusic {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.adact, .adwrite, .addance, .chwrite {
+  margin-bottom: 130px;
+}
+.adpaintingheading, .admusicheading, .adactheading, .adwritingheading, .addanceheading {
+  font-family: "Alice", sans-serif;
+  font-size: 2em;
+  line-height: 36px;
+  color: #000b0c;
+  margin-bottom: 16px;
+}
+.adpaintingwords, .admusicwords, .adactwords, .adwritingwords, .addancewords {
+  font-family: "Gilroy-Regular",sans-serif;
+ font-size: 1em;
+ line-height: 40px;
+  color: #000b0c;
+  margin-bottom: 6%;
+}
+.chdanceimg, .admusicimg, .addanceimg {
+  padding-inline: 18%;
+}
+.chwritingimg {
+padding-inline: 10%;
+}
+.adpainting img {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.paintDesign ::after {
+  content: "";
+  position: absolute;
+  top: 230%;
+  left: -282px;
+  width: 731px;
+  height: 731px;
+  opacity: 0.2;
+  background: rgba(237, 161, 47, 0.1);
+z-index: -999;
+border-radius: 50%;
+filter: blur(50px);
+}
+.chstucomments ::after {
+content: "";
+  position: absolute;
+  top: 815%;
+  left: -282px;
+  width: 731px;
+  height: 731px;
+  opacity: 0.2;
+  background: rgba(215, 78, 127, 0.1);
+z-index: -999;
+border-radius: 50%;
+filter: blur(50px);
+}
+.chwritecolor ::after {
+  content: "";
+  position: absolute;
+  top: 540%;
+  right: 0;
+  width: 731px;
+  height: 731px;
+  opacity: 0.2;
+  background: rgba(2, 151, 157, 0.1);
+z-index: -999;
+border-radius: 50%;
+filter: blur(50px);
+}
+.chmusicimg, .adactimg, .chactimg, .adwritingimg, .adpaintingimg, .childartdepimg, .adultartdepimg {
+padding-inline: 12%;
+}
+.chmusic img, .chact img, .chwrite img, .chdance img, .childartdep, .adultartdep img, .admusic img, .adact img, .adwrite img, .addance img, .adpainting img {
+  display: inline-block; 
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.musiccourse {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 10%;
+  padding-inline: 25px;
+}
+.musiclearn {
+  font-family: "Gilroy-Regular",sans-serif;
+ font-size: 1em;
+ line-height: 65px;
+  color: #000b0c;
+  text-align: center;
+  margin-top: 18%;
+  text-transform: capitalize;
+}
+.musician {
+max-width: 500px;
+}
+.cameron {
+  font-family: "Alice", sans-serif;
+  font-size: 1.5em;
+  line-height: 36px;
+  color: #000b0c;
+}
+.april {
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+.moreR {
+  font-size: 1em;
+}
+.learnMoreR {
+  max-width: 170px;
+  background-color: #02979d;
+  background-size: cover;
+  border-radius: 30px;
+  padding: 12px 30px;
+  color: #fafefe;
+  text-decoration: none;
+  width: 100%;
+}
+.learnMoreR:hover {
+  color: #fafefe;
+}
+.instructors {
+ margin-bottom: 150px;
+}
+.chinstructors {
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+.needinstructor {
+  margin-top: -8%;
+}
+.needinstructor h3 {
+font-family: "Alice", sans-serif;
+font-size: 1.5em;
+margin-top: 10%;
+}
+.needinstructor div {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 14px;
+line-height: 36px;
+}
+.studentcomments {
+  margin-bottom: 150px;
+}
+.colorfulch {
+  max-width: 604px;
+  margin: 62px auto 82px;
+  padding: 32px 25px 33px;
+  text-align: center;
+}
+.colorfulchheading {
+font-family: "Alice", sans-serif;
+  font-size: 2.5em;
+  line-height: 50px;
+  color: #000b0c;
+  margin-bottom: 6%;
+  width: 100%;
+}
+.colorfulchwords {
+font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1.2em;
+  line-height: 36px;
+  color: #000b0c;
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+
+.precendent {
+  margin-bottom: 40px;
+}
+}
+@media screen and (max-width: 1100px) {
+.ring {
+  display: none;
+}
+}
+@media screen and (max-width: 900px) {
+
+.adpainting, .admusic, .adultartdep, .adact, .adwrite, .addance, .chmusic, .chdance, .chwrite {
+  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction:column-reverse;
+  row-gap: 15px;
+}
+}
+@media screen and (max-width: 850px) {
+  .arttherapy {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+}
+.therapypass {
+    margin-top: 0;
+}
+.adactimg {
+  margin-inline-start: 0;
+}
+.writingimage {
+  margin-inline-start: 0;
+}
+.therapyimage {
+  max-width: 75%;
+}
+.musician img {
+  max-width: 50%;
+}
+.musicrelaximage {
+margin-inline-start: 0px;
+}
+}
+@media screen and (max-width: 800px) {
+.precendent {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.musiclearn {
+ font-size: 0.9em;
+ line-height: 42px; 
+  margin-top: 18%;
+}
+ 
+}
+@media screen and (max-width: 702px) {
+   .MADimages {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+}
+.colorfulwords, .colorfulchwords, .musicforadultswords {
+display: none;
+}
+.colorfulheading {
+  font-size: 2em;
+}
+  .AHwords {
+        display: none;
+    }
+    .ring {
+        margin-inline: 35%;
+    }
+    .chmusicimg, .chactimg, .adwritingimg, .adpaintingimg, .childartdepimg  {
+    padding-inline: 0;
+}
+}
+@media screen and (max-width: 650px) {
+  
+.paintDesign ::after, .chwritecolor ::after, .chstucomments ::after {
+ display: none;
+}
+
+  .musiccourse {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 10%;
+  padding-inline: 25px;
+}
+.musiclearn {
+ font-size: 0.8em;
+ line-height: 36px; 
+  margin-top: 15%;
+}
+.cameron {
+  font-size: 1.2em;
+  line-height: 32px;
+  color: #000b0c;
+}
+.april {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+}
+@media screen and (max-width: 550px) {
+.artsdepheading {
+  font-size: 1.7em;
+}
+.musiclearn {
+  font-size: 0.75em;
+ line-height: 30px; 
+  margin-top: 12%;
+}
+}
+@media screen and (max-width: 500px) {
+.MADheading, .therapyheading, .adpaintingheading, .admusicheading, .adactheading, .adwritingheading, .addanceheading {
+  font-family: "Alice", sans-serif;
+  font-size: 1.5em;
+}
+.madwords, .mchwords {
+   font-family: "Alice", sans-serif;
+  font-size: 1.3em;
+}
+.therapyimage {
+  max-width: 100%;
+}
+.artsdep {
+  padding-inline-start: 65px;
+  padding-inline-end: 15%;
+}
+.learnMoreR {
+  padding: 6px 15px;
+}
+}
+
+@media screen and (max-width: 450px) {
+.musiclearn {
+  line-height: 26px; 
+  margin-top: 10%;
+}
+.letsplay {
+  font-size: 0.85em;
+}
+.april {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+}
+
+@media screen and (max-width: 400px) {
+.joincameron {
+  display: none;
+}
+.learnjoin {
+  display: none;
+}
+.april {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+}

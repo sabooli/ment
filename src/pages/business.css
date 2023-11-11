@@ -1,0 +1,952 @@
+
+@font-face {
+  font-family: "Alice";
+  src: url(../fonts/Alice-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(../fonts/Gilroy-Bold.ttf);
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url(../fonts/Gilroy-Black.ttf);
+  font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url(../fonts/Gilroy-ExtraBold.ttf);
+    font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+  font-display: swap;
+}
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+}
+.jobopportunitieslist {
+  margin-inline: 85px;
+}
+.adbeexpert {
+  max-width: 1158px;
+  margin: 100px 85px 20px;
+  color: #fafefe;
+  text-align: center;
+}
+.adbeexpertheading {
+  font-family: "Alice", sans-serif;
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+.adbeexpertwords {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 1.05em;
+  line-height: 36px;
+margin-bottom: 100px;
+}
+.adbeexpertReg {
+  border: 1px solid #fafefe;
+  border-radius: 32px;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+.adbeexpertReg span {
+ font-family: "Gilroy-Bold", sans-serif;
+  font-size: 16px;
+  color: #fafefe;
+}
+.business {
+    margin-inline: 85px;
+    margin-top: 110px;
+}
+.hiringpage {
+   margin-inline: 85px;
+   margin-top: 50px;
+}
+.hiring {
+   display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-bottom: 110px;
+}
+.hiring h1 {
+font-family: "Alice", sans-serif;
+font-size: 2.5em;
+line-height: 54px;
+}
+.hiringtext {
+font-family: "Gilroy-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 36px;
+  padding-inline-end: 10%;
+}
+.hiringimg {
+  display: inline-block; 
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  padding-inline: 5%;
+}
+.openRoles {
+  margin-bottom: 150px;
+}
+.openRoles h2 {
+  font-family: "Alice", sans-serif;
+    font-size: 2em;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+.openRolebar {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 1%;
+}
+.rolebar {
+  border: 0.2px solid #02979D;
+max-width: 400px;
+}
+.rolebarcontext {
+   font-size: 14px;
+  font-family: "Gilroy-Regular", sans-serif;
+  line-height: 32px;
+  text-align: flex-start;
+  padding-top: 15px;
+padding-inline: 15px;
+padding-bottom: 15px;
+  color: #000b0c;
+}
+.roletitle {
+  font-family: "Gilroy-Medium", sans-serif;
+color: #02979d;
+}
+.roleimg {
+  display: inline-block; 
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.businessadone, .businessadtwo, .businesschtwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 140px;
+}
+.Badoneheading, .Badtwoheading {
+    font-family: "Alice", sans-serif;
+    font-size: 2em;
+    line-height: 36px;
+}
+.Badonewords, .Badtwowords {
+    font-family: "Gilroy-Regular", sans-serif;
+    font-size: 1em;
+    line-height: 36px;
+}
+.businessadtwo, .businesschtwo {
+    margin-bottom: 140px;
+}
+.ljo {
+    font-family: "Alice", sans-serif;
+    font-size: 2em;
+    line-height: 36px;
+    text-align: center; 
+}
+.stussay {
+    margin-top: 140px;
+    margin-bottom: 150px;
+}
+.posbar {
+  border: 0.2px solid rgba(2, 151, 157, 1);
+  font-size: 14px;
+  font-family: "Gilroy-Regular", sans-serif;
+  line-height: 32px;
+  text-align: flex-start;
+padding-top: 15px;
+padding-inline: 15px;
+padding-bottom: 45px;
+  color: #000b0c;
+max-width: 100%;
+}
+.postitle {
+font-family: "Gilroy-Medium", sans-serif;
+color: rgba(2, 74, 157, 1);
+text-transform: capitalize;
+}
+.cotype {
+text-transform: capitalize;
+}
+.postitleinfo {
+  font-family: "Gilroy-Medium", sans-serif;
+color: rgba(2, 74, 157, 1);
+  display: flex;
+  justify-content: space-between;
+}
+.gotorole {
+  background-color: #02979d;
+  border-radius: 50px;
+  max-width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-inline: 40%;
+  margin-top: 10px;
+}
+.gotopos {
+ background-color: #02979d;
+  border-radius: 50px;
+  max-width: 65px; 
+  width: 100%;
+  justify-content: flex-end;
+  float: right;
+  padding-bottom: 3px;
+ white-space: normal;
+}
+.error {
+  color: red;
+  font-size: 14px;
+}
+.postime span {
+  color: #000b0c;
+  margin-inline: 5px;
+  background-color: #EAF0F6;
+  padding: 8px;
+  max-width: 100px; 
+  text-align: center;
+}
+.roletime span {
+  color: #000b0c;
+  margin-inline: 5px;
+  background-color: #EAF6F6;
+  padding: 8px;
+  max-width: 100px; 
+  text-align: center;
+}
+.posfrom, .roleform {
+  display: flex;
+  justify-content: space-between;
+}
+.posfrom span {
+font-size: 12px;
+color: #024A9D;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+}
+.originRole {
+font-size: 12px;
+color: #02979D;
+margin-left: auto;
+}
+.posdesign {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+.IT {
+   width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.coursename {
+font-family: "Gilroy-Regular", sans-serif;
+font-size: 18px;
+line-height: 36px;
+text-align: center;
+align-items: center;
+text-transform: uppercase;
+}
+.adcdes {                
+box-shadow: 1px 5px 25px 0px rgba(2, 151, 157, 0.1);
+border: 0.5px solid #fafefe !important;
+background: rgba(250, 254, 254, 1);
+}
+.chbeexpert {
+  max-width: 684px;
+  margin: 70px 85px 20px;
+  color: #fafefe;
+  text-align: start;
+}
+.chbeexpertheading {
+  font-family: "Alice", sans-serif;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.chbeexpertwords {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 1.05em;
+  line-height: 36px;
+margin-bottom: 40px;
+}
+.chbeexpertReg {
+  border: 1px solid #fafefe;
+  border-radius: 32px;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+.chbeexpertReg span {
+ font-family: "Gilroy-Bold", sans-serif;
+  font-size: 16px;
+  color: #fafefe;
+}
+.chbubg {
+  background-color: #EAF6F6;
+  margin-inline: -85px;
+  padding-inline-start: 85px;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Badoneph, .Badtwoph {
+  display: inline-block; 
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  padding-inline: 12%;
+}
+.Bchoneph, .Bchtwoph, .Bchthreeph {
+  display: inline-block; 
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  padding-inline: 12%;
+}
+.ourService {
+  margin-top: 100px;
+  margin-bottom: 160px;
+  margin-inline: -85px;
+}
+.ourService h2 {
+  text-align: center;
+  font-family: "Alice", sans-serif;
+}
+.ourService div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 40px;
+}
+.ourService div .triplet {
+display: inline-block; 
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.BResume:hover {
+  color: #FAFEFE;
+}
+.Bprog {
+  background-size: cover;
+  margin-inline: -85px;
+  padding-inline: 85px;
+  padding-top: 110px;
+  padding-bottom: 140px;
+  margin-bottom: 160px;
+  background-position: center center;
+  background-image: url(../icons/Rectangle151.png);
+}
+.Bprog h2 {
+   text-align: center;
+  font-family: "Alice", sans-serif;
+  margin-bottom: 30px;
+}
+.Bprog div {
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 42px;
+}
+.certificate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 150px;
+}
+.cerimg {
+  display: inline-block; 
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  padding-inline: 10%;
+}
+.cerexp h3 {
+font-family: "Alice", sans-serif;
+  margin-bottom: 30px;
+}
+.cerexp div {
+font-family: "Gilroy-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 42px;
+}
+.customerservice {
+  max-width: 964px;
+  margin: 155px auto 20px;
+  padding: 38px 25px 40px;
+  backdrop-filter: blur(4px) brightness(80%);
+  color: #fafefe;
+  text-align: center;
+}
+.customerserviceH {
+ font-family: "Alice", sans-serif;
+  font-size: 3em;
+  margin-bottom: 46px;
+}
+.customerserviceT {
+font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1.1em;
+  line-height: 40px;
+}
+.customerS {
+  margin-inline: 85px;
+  padding-top: 40px;
+}
+.customerS h1 {
+  font-family: "Alice", sans-serif;
+  font-size: 2em;
+}
+.customerS div {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1em;
+  line-height: 36px;
+}
+.BR {
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-top: 100px;
+margin-bottom: 110px;
+}
+.BR h2 {
+  font-family: "Alice", sans-serif;
+  font-size: 2em;
+}
+.BR div {
+  max-width: 550px;
+   font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1em;
+  line-height: 36px;
+}
+.oneofus {
+  background-color:  #EBF7F7;
+  background-size: cover;
+  margin-inline: -85px;
+  padding-inline: 85px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+   margin-bottom: 100px;
+}
+.oneofus h3 {
+   font-family: "Alice", sans-serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.oneofusT {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1em;
+  line-height: 36px;
+  margin-bottom: 50px;
+}
+.jobM {
+  max-width: 608px;
+  margin: 50px 85px 20px;
+  color: #fafefe;
+  text-align: start;
+}
+.jobMF {
+  max-width: 608px;
+  margin: 50px;
+  margin-inline-start: 685px;
+  color: #fafefe; 
+}
+.jobH {
+font-family: "Alice", sans-serif;
+  font-size: 3em;
+  margin-bottom: 42px;
+}
+.jobT {
+font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1.1em;
+  line-height: 40px;
+}
+.jobL {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 1em;
+  line-height: 40px;
+}
+.jobBR {
+  max-width: 170px;
+  background-size: cover;
+  border: 1px solid #EAF6F6;
+  border-radius: 30px;
+  padding: 8px 30px;
+  color: #fafefe;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.jobchoose {
+  display: grid; 
+  grid-template-columns: 2fr 1fr;
+  border-width: 0.2px;
+  box-shadow: 0px 1px 25px rgba(2, 151, 157, 0.1);
+  max-width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  margin-top: -68px;
+  margin-bottom: 40px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-inline: 5%;
+  margin-inline: 85px;
+  gap: 5%;
+  background-color: #fafefe;
+}
+.jobsearch {
+  min-height: 50px;
+  background-color: #02979d;
+  border-radius: 16px;
+  grid-column: span 2;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin: 20px auto 20px;
+  padding: 10px;
+}
+.jobsearchT:hover {
+  color: #ffffff;
+}
+.jobsearchT {
+  font-family: "Gilroy-Bold", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1em;
+}
+.NLD {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+}
+.NLD input {
+box-sizing: border-box;
+width: 100%;
+height: 40px;
+background: #FAFEFE;
+border: 0.2px solid #02979D;
+border-radius: 5px;
+}
+.sex, .year {
+box-sizing: border-box;
+width: 100%;
+height: 40px;
+background: #FAFEFE;
+border: 0.2px solid #02979D;
+border-radius: 5px;
+}
+.adrsinput {
+box-sizing: border-box;
+width: 100% !important;
+height: 180px !important;
+background: #FAFEFE;
+border: 0.2px solid #02979D;
+border-radius: 5px; 
+}
+input[type='file']::-webkit-file-upload-button {
+    display: none;
+}
+.cvbutton {
+width: 140px;
+height: 40px;
+background-color: #02979d;
+border: 1px solid #02979d;
+border-radius: 5px;
+margin-inline-start: -140px;
+color: #EBF7F7;
+font-family: "Gilroy-Bold", sans-serif;
+font-size: 1em;
+}
+.file-input-wrapper {
+ position: relative;
+  display: flex; /* Use flexbox */
+  flex-direction: row-reverse;
+}
+.file-input {
+  width: 140px;
+  height: 40px;
+  padding-left: 100px; 
+}
+.file-input::before {
+  content: 'Choose File';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 100px;
+  background-color: #02979d;
+  color: #EBF7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.file-input::before:hover {
+  background-color: #137e8c;
+}
+.cvtext {
+color: #858585;
+font-size: 14px;
+}
+.Datesplit {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 5%;
+}
+.propscom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sendprops {
+border: 1px solid #02979D;
+text-decoration: none;
+border-radius: 25px;
+background-color: #02979D;
+color: #FAFEFE;
+max-width: 180px;
+margin-inline-start: -20%;
+margin-inline-end: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.applyjob {
+border: 1px solid #02979D;
+text-decoration: none;
+border-radius: 25px;
+background-color: #02979D;
+color: #FAFEFE;
+max-width: 300px;
+margin-inline-end: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cancelprops{
+border: 1px solid #02979D;
+text-decoration: none;
+border-radius: 25px;
+color: #02979D;
+background-color: #EBF7F7;
+max-width: 180px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.category {
+  text-transform: uppercase;
+}
+.alive {
+  color: #02979D;
+}
+.canceljob {
+border: 1px solid #02979D;
+text-decoration: none;
+border-radius: 25px;
+color: #02979D;
+background-color: #fafefe;
+max-width: 225px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.applyorcancel {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.sendprops:hover, .applyjob:hover {
+color: #fafefe;
+}
+.cancelprops:hover, .canceljob:hover {
+color: #02979D;
+}
+.jobdetail {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid #02979D;
+  margin-inline: -15px;
+}
+.jobopportunitieslist {
+  padding-bottom: 100px;
+}
+.jobfilters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3%;
+  margin-bottom: 50px;
+}
+.jobfilters .formselect, .jobfilters button {
+  border: 1px solid #858585;
+  border-radius: 30px !important;
+  padding: 12px;
+  padding-inline-end: 25px;
+width: 100%;  
+background-color:#fafefe;
+  color: #000b0c;
+  font-size: 14px;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+.Positionslistanddetail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3%;
+}
+.positionnotdetail {
+   display: grid;
+  grid-template-columns: 1fr;
+}
+.backpls {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  color: #02979D;
+  display: none;
+}
+.pageNumber {
+  background-color: #fafefe;
+  border: 1px solid #02979D;
+  border-radius: 4px;
+  padding: 4px;
+  padding-inline: 12px;
+  margin-inline-end: 20px;
+  color: #02979D;
+}
+.pageDot {
+  background-color: #fafefe;
+  border: none;
+  padding: 4px;
+  padding-inline: 12px;
+  margin-inline-end: 20px;
+  color: #02979D;
+}
+.activePage {
+background-color: #02979D;
+  border: 1px solid #02979D;
+  border-radius: 4px;
+  padding: 4px;
+  padding-inline: 12px;
+  margin-inline-end: 20px;
+  color: #fafefe;
+}
+
+@media screen and (max-width: 1200px) {
+.customerserviceT, .jobT {
+  display: none;
+}
+.customerservice {
+   margin: 35px auto 20px;
+}
+}
+@media screen and (max-width: 900px) {
+.businessadone, .businessadtwo, .businesschtwo,.hiring, .BR {
+    grid-template-columns: 1fr;
+    display: flex;
+flex-direction: column;
+row-gap: 50px;
+}
+ .jobchoose {
+    grid-template-columns: 1fr;
+    display: flex;
+flex-direction: column;
+margin-inline: 40px;
+ }
+ .jobfilters, .Positionslistanddetail, .positionnotdetail, .topjob {
+  margin-inline: -45px;
+ }
+.adbeexpertwords, .chbeexpertwords {
+display: none;
+}
+.certificate {
+    grid-template-columns: 1fr;
+    display: flex;
+flex-direction: column;
+row-gap: 20px;
+}
+.chbubg {
+  padding-inline: 85px;
+}
+.NLD {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0;
+}
+}
+@media screen and (max-width: 800px) {
+.jobfilters {
+  grid-template-columns: repeat(4, 1fr);
+}
+.Positionslistanddetail {
+grid-template-columns: 1fr;
+display: flex;
+flex-direction: column;
+}
+.positiondisplay {
+  display: none;
+}
+.backpls {
+  display: block;
+text-align: center;
+text-decoration: none;
+margin-top: 30px;
+}
+}
+@media screen and (max-width: 780px) {
+.posdesign {
+    grid-template-columns: 1fr;
+    display: flex;
+flex-direction: column;
+}
+.openRolebar {
+  display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.adbeexpertheading, .chbeexpertheadig {
+  font-size: 1.8em;
+}
+.jobM {
+  margin: 18px 50px 20px;
+}
+.adbeexpert, .chbeexpert {
+  margin: 20px 40px 20px;
+}
+}
+@media screen and (max-width: 700px) {
+
+.jobH {
+  font-size: 2em;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+.jobL {
+  line-height: 32px;
+}
+.jobBR {
+  margin-top: 0px;
+  padding: 5px 24px;
+}
+}
+@media screen and (max-width: 625px) {
+.posdesign, .businessadone, .businessadtwo, .ljo, .stussay, .courR, .Bprog h2, .Bprog div, .certificate, .hiring, .openRoles, .BR, .moreabout {
+  margin-inline: -45px;
+}
+.chbubg, .oneofus {
+  padding-inline: 50px;
+}
+.jobchoose {
+    margin-inline: 40px;
+}
+.jobfilters {
+  grid-template-columns: repeat(3, 1fr);
+}
+.Datesplit {
+  max-width: 360px;
+}
+.propscom {
+  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.sendprops {
+  margin-inline-start: 0;
+  margin-inline: auto;
+width: 180px;
+}
+.cancelprops {
+  margin-inline: auto;
+width: 180px;
+}
+.coa {
+  font-size: 1.8em;
+}
+.swiper-navigation__prev, .swiper-navigation__next {
+  font-size: 36px;
+}
+.ourService div {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 5px;
+}
+.NLD {
+  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+}
+}
+@media screen and (max-width: 530px) {
+.openRolebar {
+  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-inline: 5%;
+}
+.customerserviceH {
+  font-size: 2em;
+}
+}
+@media screen and (max-width: 470px) {
+.coa {
+  font-size: 1.6em;
+}
+.swiper-navigation__prev, .swiper-navigation__next {
+  font-size: 32px;
+}
+.Badoneheading, .Badtwoheading, .ljo {
+font-size: 1.8em;
+}
+.jobfilters {
+  grid-template-columns: repeat(2, 1fr);
+}
+}
+@media screen and (max-width: 430px) {
+.coa {
+  font-size: 1.5em;
+}
+.swiper-navigation__prev, .swiper-navigation__next {
+  font-size: 30px;
+}
+}
